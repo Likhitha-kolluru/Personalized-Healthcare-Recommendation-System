@@ -1,0 +1,74 @@
+/* =========================================
+   WHITE INPUTS AND DROPDOWNS
+========================================= */
+
+/* Text input */
+.stTextInput input {
+    background-color: #FFFFFF !important;
+    color: #153B59 !important;
+    border: 1px solid #CBDCE8 !important;
+    border-radius: 9px !important;
+    padding: 10px 12px !important;
+}
+
+/* Number input */
+.stNumberInput input {
+    background-color: #FFFFFF !important;
+    color: #153B59 !important;
+    border: 1px solid #CBDCE8 !important;
+    border-radius: 9px !important;
+}
+
+/* Text area */
+.stTextArea textarea {
+    background-color: #FFFFFF !important;
+    color: #153B59 !important;
+    border: 1px solid #CBDCE8 !important;
+    border-radius: 9px !important;
+    padding: 10px 12px !important;
+}
+
+/* Selectbox dropdown */
+div[data-baseweb="select"] > div {
+    background-color: #FFFFFF !important;
+    color: #153B59 !important;
+    border: 1px solid #CBDCE8 !important;
+    border-radius: 9px !important;
+}
+
+/* Dropdown selected text and icons */
+div[data-baseweb="select"] * {
+    color: #153B59 !important;
+}
+
+/* Dropdown options menu */
+ul[role="listbox"] {
+    background-color: #FFFFFF !important;
+}
+
+li[role="option"] {
+    background-color: #FFFFFF !important;
+    color: #153B59 !important;
+}
+
+li[role="option"]:hover {
+    background-color: #EAF4FA !important;
+    color: #087F8C !important;
+}
+
+/* Input focus effect */
+.stTextInput input:focus,
+.stNumberInput input:focus,
+.stTextArea textarea:focus {
+    border: 1px solid #087F8C !important;
+    box-shadow: 0 0 0 2px rgba(8, 127, 140, 0.12) !important;
+}
+
+/* Input labels */
+.stTextInput label,
+.stNumberInput label,
+.stTextArea label,
+.stSelectbox label {
+    color: #526B80 !important;
+    font-weight: 600 !important;
+}
