@@ -1,5 +1,3 @@
-# Personalized-Healthcare-Recommendation-System
-AI and ML based Personalized Healthcare Information Recommendation System
 # Personalized Healthcare Recommendation System
 
 ## Project Overview
